@@ -15,6 +15,29 @@
 	<name>SCIFIO Testing</name>
 	<description>Extensible test suite for SCIFIO-based projects.</description>
 
+	<developers>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>lead</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<roles><role>founder</role></roles>
+			<properties><id>hinerm</id></properties>
+		</contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/scifio/scifio-testing</connection>
 		<developerConnection>scm:git:git@github.com:scifio/scifio-testing</developerConnection>
