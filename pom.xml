@@ -21,12 +21,10 @@
 		<tag>HEAD</tag>
 		<url>http://github.com/scifio/scifio-testing</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>https://github.com/scifio/scifio-testing/issues</url>
 	</issueManagement>
-
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/view/SCIFIO-tests/</url>
@@ -71,5 +69,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
