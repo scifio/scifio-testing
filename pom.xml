@@ -3,17 +3,30 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>io.scif</groupId>
-		<artifactId>pom-scifio</artifactId>
-		<version>1.3</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>12.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>io.scif</groupId>
 	<artifactId>scifio-testing</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
 	<name>SCIFIO Testing</name>
 	<description>Extensible test suite for SCIFIO-based projects.</description>
+	<url>http://imagej.net/SCIFIO_Testing</url>
+	<inceptionYear>2014</inceptionYear>
+	<organization>
+		<name>SCIFIO</name>
+		<url>http://scif.io/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -38,6 +51,13 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/tags/scifio</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/scifio/scifio-testing</connection>
 		<developerConnection>scm:git:git@github.com:scifio/scifio-testing</developerConnection>
@@ -52,6 +72,15 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/SCIFIO-Testing/</url>
 	</ciManagement>
+
+	<properties>
+		<package-name>io.scif.utests</package-name>
+
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison</license.copyrightOwners>
+		<license.projectName>SCIFIO library for reading and converting scientific file formats.</license.projectName>
+	</properties>
 
 	<repositories>
 		<repository>
