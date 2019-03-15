@@ -19,7 +19,7 @@
 	<inceptionYear>2014</inceptionYear>
 	<organization>
 		<name>SCIFIO</name>
-		<url>http://scif.io/</url>
+		<url>https://scif.io/</url>
 	</organization>
 	<licenses>
 		<license>
@@ -62,15 +62,14 @@
 		<connection>scm:git:git://github.com/scifio/scifio-testing</connection>
 		<developerConnection>scm:git:git@github.com:scifio/scifio-testing</developerConnection>
 		<tag>HEAD</tag>
-		<url>http://github.com/scifio/scifio-testing</url>
+		<url>https://github.com/scifio/scifio-testing</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>https://github.com/scifio/scifio-testing/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SCIFIO-Testing/</url>
+		<system>None</system>
 	</ciManagement>
 
 	<properties>
